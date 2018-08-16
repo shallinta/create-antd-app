@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "targets": {
+        "browsers": ["> 1%", "Android >= 4.4", "IOS >= 7", "ie >= 9"]
+      }
+    }],
+    "stage-0"
+  ],
+
+  "plugins": [
+    ["transform-runtime", { "helpers": false, "polyfill": false, "regenerator": true }],
+    "add-module-exports",
+    "transform-decorators-legacy",
+    "transform-react-display-name",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
+  ]
+}
