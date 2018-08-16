@@ -1,4 +1,6 @@
 # create-antd-app
+快速创建使用antd和redux的react工程。  
+工程使用[packing](https://github.com/packingjs/packing)创建。
 
 ## 创建初始化新页面
 方法1. 使用命令 `npm run create`，根据命令行交互提示逐步输入参数来创建。  
@@ -15,10 +17,10 @@ npm run create about 关于
 创建同一目录下多页面时，使用目录+页面名，例如：
 
 ``` sh
-# 资源位管理 列表页
+# 资源 列表页
 npm run create resources/list
 
-# 资源位管理 详情页
+# 资源 详情页
 npm run create resources/detail
 ```
 
